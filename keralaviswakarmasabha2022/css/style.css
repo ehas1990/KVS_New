@@ -62,9 +62,9 @@
 {
     margin-left: -48px;
 }
-footer
-{
+footer {
     background-color: #000;
+    margin-top: -22px;
 }
 .foot_about,.foot_quick,.foot_address
 {
@@ -112,10 +112,17 @@ footer
     border-radius:100%;
     width: 100px;
     height: 100px;
-    margin-left: 125px;
+    margin-left:89px;
+  
   
 
 }
+.icon-box:hover{
+    -webkit-filter: sepia(100%); 
+    filter: sepia(100%);
+
+}
+
 #icon
 {
     margin-top: 32px;
@@ -137,4 +144,58 @@ footer
 .icon-text
 {
     margin-top: 80px;
+}
+.form-card {
+    background: rgb(242, 239, 245);
+    padding: 20px;
+    height: 390px;
+}
+.form-card1 {
+    background: rgb(242, 239, 245);
+    padding: 20px;
+
+}
+.icon-contact1
+{
+   
+        background: black;
+     
+        width: 75px;
+        height: 75px;
+        border-radius: 100px;
+        padding: 27px;
+        color: #ffffff;
+    }
+.contact-text
+{
+ margin-top: 25px;
+}
+
+.icon-contact2 {
+    background: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 21px;
+
+}
+.icon-contact3 {
+    background: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+.icon-contact3:hover ,.icon-contact2:hover , .icon-contact1:hover
+{
+    background-color: #da8616;
+}
+#contact_section
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
