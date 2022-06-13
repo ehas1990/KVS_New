@@ -62,9 +62,10 @@
 {
     margin-left: -48px;
 }
+
 footer {
     background-color: #000;
-    margin-top: -22px;
+
 }
 .foot_about,.foot_quick,.foot_address
 {
@@ -106,16 +107,22 @@ footer {
     border-radius: 5px;
   
 }
-.icon-box
+textarea
 {
+    width: 100%;
 
-    border-radius:100%;
+}
+#col
+{
+    margin-top: 20px;
+}
+
+.icon-box {
+    border-radius: 100%;
     width: 100px;
     height: 100px;
-    margin-left:89px;
-  
-  
-
+    margin-left:118px;
+    background-color: black;
 }
 .icon-box:hover{
     -webkit-filter: sepia(100%); 
