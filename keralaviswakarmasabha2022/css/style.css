@@ -124,7 +124,7 @@ textarea
     margin-left:118px;
     background-color: black;
 }
-.icon-box:hover{
+.authorimg:hover{
     -webkit-filter: sepia(100%); 
     filter: sepia(100%);
 
@@ -205,4 +205,27 @@ textarea
 {
     margin-top: 60px;
     margin-bottom: 60px;
+}
+.author{
+ width: 50%;
+ margin-left: 250px;
+}
+.authorimg
+{
+    border-radius: 60%;
+}
+div#n2-ss-5 .n-uc-lPYDpFCNUbWo-inner {
+    padding: 10px 50px 10px 10px;
+    justify-content: center;
+    background: linear-gradient(67deg, white, transparent);
+}
+div#n2-ss-5 .n-uc-rrDEk7BDdqc1-inner {
+    padding: 10px 50px 10px 10px;
+    justify-content: center;
+    background: linear-gradient(45deg, black, transparent);
+}
+div#n2-ss-5 .n-uc-VU1qjFbjQtxP-inner {
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    background: linear-gradient(45deg, black, transparent);
 }
