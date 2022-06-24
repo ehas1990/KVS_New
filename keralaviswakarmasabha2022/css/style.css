@@ -229,3 +229,198 @@ div#n2-ss-5 .n-uc-VU1qjFbjQtxP-inner {
     background-size: cover;
     height: 250px;
 }
+body {
+    overflow: hidden;
+  }
+  
+  
+  /* Preloader */
+  
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+    background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+  
+  #status {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+   
+    /* path to your loading animation */
+
+    /* is width and height divided by two */
+    font-size: 30px;
+  }
+  .justifycontentend
+  {
+    justify-content: flex-end;
+  }
+  div#n2-ss-5 .n-uc-lPYDpFCNUbWo-inner {
+    padding: 10px 50px 10px 10px;
+    justify-content: center;
+    background: linear-gradient(67deg, #181616, transparent) !important;
+}
+  @media only screen
+  and (min-device-width: 100px)
+  and (max-device-width:320px)
+{
+    .author-box {
+        background-color: #ededed;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 50px;
+        width: 346px !important;
+    }
+    .author {
+        width: 108% !important;
+        margin-left: -46px !important;
+    }
+    .form-card {
+        background: rgb(242, 239, 245);
+        padding: 20px;
+        height: 521px !important;
+    }
+    #status {
+        width: 1200px;
+        height: 200px;
+        position: absolute;
+        left: -60%;
+        /* centers the loading animation horizontally one the screen */
+        top: 50%;
+        /* centers the loading animation vertically one the screen */
+       
+        /* path to your loading animation */
+    
+        /* is width and height divided by two */
+        font-size:10px !important;
+      }
+      .justifycontentend {
+        justify-content: flex-start!important;
+    }
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  {
+    .author-box {
+        background-color: #ededed;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 50px;
+        width: 346px !important;
+    }
+    .author {
+        width: 108% !important;
+        margin-left: -9px !important;
+    }
+    .form-card {
+        background: rgb(242, 239, 245);
+        padding: 20px;
+        height: 521px !important;
+    }
+    .justifycontentend {
+        justify-content: flex-start!important;
+    }
+    #status {
+        width: 1200px;
+        height: 200px;
+        position: absolute;
+        left: -60%;
+        /* centers the loading animation horizontally one the screen */
+        top: 50%;
+        /* centers the loading animation vertically one the screen */
+       
+        /* path to your loading animation */
+    
+        /* is width and height divided by two */
+        font-size:10px !important;
+      }
+}
+  @media only screen
+  and (min-device-width: 480px)
+  and (max-device-width: 620px)
+{
+    .author-box {
+        background-color: #ededed;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 50px;
+        width: 346px !important;
+    }
+    .author {
+        
+        margin-left: -46px !important;
+        width: 108% !important; 
+    }
+    .form-card {
+        background: rgb(242, 239, 245);
+        padding: 20px;
+        height: 521px !important;
+    }
+    .justifycontentend {
+        justify-content: flex-start!important;
+    }
+    #status {
+        width: 1200px;
+        height: 200px;
+        position: absolute;
+        left: -30%;
+        /* centers the loading animation horizontally one the screen */
+        top: 50%;
+        /* centers the loading animation vertically one the screen */
+       
+        /* path to your loading animation */
+    
+        /* is width and height divided by two */
+        font-size:10px !important;
+      }
+}
+@media only screen
+  and (min-device-width:620px)
+  and (max-device-width:720px)
+{
+    .author-box {
+        background-color: #ededed;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 50px;
+        width: 346px !important;
+    }
+    .justifycontentend {
+        justify-content: flex-start!important;
+    }
+    #status {
+        width: 1200px;
+        height: 200px;
+        position: absolute;
+        left: -30%;
+        /* centers the loading animation horizontally one the screen */
+        top: 50%;
+        /* centers the loading animation vertically one the screen */
+       
+        /* path to your loading animation */
+    
+        /* is width and height divided by two */
+        font-size:10px !important;
+      }
+}
+@media only screen
+  and (min-device-width:720px)
+  and (max-device-width:1200px)
+{
+}
