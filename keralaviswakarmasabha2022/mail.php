@@ -21,5 +21,5 @@ echo "<h1>Sent Successfully! Thank you ".$name."</h1>";
 } else {
     echo "The email message was not sent.";
 }
-
+require_once "contact.html";
 ?>
