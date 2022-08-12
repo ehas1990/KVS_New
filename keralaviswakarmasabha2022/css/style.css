@@ -1,3 +1,21 @@
+.buttton
+{ border-bottom-right-radius: 33.11px;
+ border-top-left-radius: 33.11px;
+ 
+}
+.num_rows
+{
+    width: 150px;
+}
+#card-statecommite
+{
+    width: 500px;
+}
+.tb_search
+{
+   
+    float:right;
+}
  .social-head
 {
     background-color: #da8616;
@@ -279,6 +297,11 @@ body {
   and (min-device-width: 100px)
   and (max-device-width:320px)
 {
+    .table-responsive
+    {
+        display:inline-block!important;
+        overflow-x: auto;
+    }
     .author-box {
         background-color: #ededed;
         padding-top: 30px;
@@ -317,6 +340,11 @@ body {
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   {
+    .table-responsive
+    {
+        display:inline-block!important;
+        overflow-x: auto;
+    }
     .author-box {
         background-color: #ededed;
         padding-top: 30px;
