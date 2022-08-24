@@ -371,6 +371,10 @@ div#n2-ss-5 .n-uc-VU1qjFbjQtxP-inner {
   and (min-device-width: 100px)
   and (max-device-width:320px)
 {
+    .modal
+    {
+        width: 90% !important;
+    }
     #card-bg2
     {
         margin-top: 10px !important;
