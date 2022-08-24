@@ -4,7 +4,7 @@
   <title>Kerala Viswakarma Sabha</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -48,7 +48,7 @@
   </script>
 </head>
 <body class="materimonialservices">
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
   <div id="preloader">
@@ -60,29 +60,33 @@
    
     </div>
 
-  </div>
+  </div> -->
 <header>
     <div class="social-head">
           <div class="container-fluid">
                   <div class="row">
                          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6">
-                               <ul class="nav">
-                                    <li class="nav-item"><a class="nav-link text-white"><i class="fa fa-envelope"></i>keralaviswakarmasabhas277@gmail.com</a></li>
-                               </ul>
+                                <div id="social-left">
+                                    <ul class="nav">
+                                          <li class="nav-item"><a class="nav-link text-white"><i class="fa fa-envelope me-2"></i>keralaviswakarmasabhas277@gmail.com</a></li>
+                                    </ul>
+                                </div>
                          </div>
                          <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 col-xl-6">
-                            <ul class="nav justifycontentend">
-                                <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-facebook"></i></a></li>
-                                <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-instagram"></i></a></li>
-                                <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-linkedin"></i></a></li>
-                           </ul>
+                              <div id="social-right">
+                                      <ul class="nav justifycontentend">
+                                          <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-facebook"></i></a></li>
+                                          <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-instagram"></i></a></li>
+                                          <li class="nav-item"><a class="nav-link text-white"><i class="fa fas fa-x fa-linkedin"></i></a></li>
+                                      </ul>
+                              </div>
                         </div>
                   </div>
           </div>
     </div>
     <nav class="navbar navbar-expand-sm bg-color navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Logo</a>
+          <a class="navbar-brand" href="#">Kerala Viswakarma Sabha</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -104,8 +108,15 @@
         
                       </ul>
                 </li>
-                <li class="nav-item" id="nav-item">
-                  <a class="nav-link text-white" href="materimonialservices.html">Materimonial Services</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white " id="nav-item" href="#" role="button" data-bs-toggle="dropdown">Materimonial Services</a>
+                    <ul class="dropdown-menu sub">
+                      <li><a class="dropdown-item text-white" href="#">Brides</a></li>
+                    
+                      <li><a class="dropdown-item text-white" href="#">Grooms</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Pendings</a></li>
+      
+                    </ul>
                 </li>
                 <li class="nav-item" id="nav-item">
                   <a class="nav-link text-white" href="marriageregister.html">Marriage Register</a>
@@ -161,7 +172,7 @@
        <div class="container">
                <div class="row">
                       <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                          <div id="card_bg">
+                          <div id="card_bg" class="view_profile">
                               <div class="card " id="card-bg">  <div class="mt-3"></div>
                               <div class="card-img"> 
                                   <div class="text-center">
@@ -226,6 +237,11 @@
                                               <button type="button" class="btn btn-primary custom-text2"  data-toggle="modal" data-target="#myModal">
                                               Contact Us
                                           </button>
+                                          <span class="me-2" id="btn-profile">
+                                            <button type="button" class="btn btn-primary custom-text2">
+                                             <a href="marriageregister.html">Edit Profile</a>
+                                          </button>
+                                          </span>
                                   </div>                               
                                 </div>
                           </div>
@@ -267,7 +283,7 @@
 <!-- footer -->
 <footer>
   <div class="container-fluid">
-         <div class="row p-5">
+         <div class="row p-2">
                  <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                          <div class="foot_about">
                                  <h4 class="foot_head">Abouts</h4>
@@ -287,9 +303,7 @@
                       <ul class="quick_1">
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="executiveforum.html">Executive Forum</a></li>
-                         
-                            <li class="nav-item"><a class="nav-link">Union</a></li>
-                            <li class="nav-item"><a class="nav-link">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="marriageregister.html" >Marriage Register</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                       </ul>
                   </div>
@@ -300,8 +314,9 @@
                       <address>KERALA VISWAKARMA SABHA (KVS)<br>Reg No: S.277/2003,Cherooty Rd<br>Kozhikode, Kerala </address>
                       <div class="social-link">
                                <ul class="quick_2">
-                                <li class="nav-item"><a class="nav-link"><i class="fa fa-envelope me-2"></i>keralaviswakarmasabhas277@gmail.com</a></li>
-                                <li class="nav-item"><a class="nav-link"><i class="fa fa-phone me-2"></i>+91  9048675860</a></li>
+                                     <li class="nav-item"><a class="nav-link" href="mailto:keralaviswakarmasabhas277@gmail.com"><i class="fa fa-envelope me-2"></i>keralaviswakarmasabhas277@gmail.com</a></li>
+                                     <li class="nav-item"><a class="nav-link" href="tel:+917012958534"><i class="fa fa-phone me-2"></i>(+91)7012958534</a></li>
+                                     <li class="nav-item"><a class="nav-link" href="tel:+919048675860"><i class="fa fa-phone me-2"></i>(+91)9048675860</a></li>
                                </ul>
                       </div>
                 
