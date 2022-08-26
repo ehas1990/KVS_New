@@ -898,7 +898,7 @@ and (max-device-width:760px)
        font-size: 11px !important;
     }
     .social-link {
-        width:fit-content !important ;
+        width:150px !important ;
         font-size: 12px !important;
     }
    
