@@ -37,7 +37,7 @@
   }
  #card-bg {
     background: linear-gradient(277deg, #dddddd, transparent);
-    width:600px;
+    width:820px;
 }
 
 #card_bg
@@ -53,15 +53,19 @@
 {
     background: linear-gradient(277deg, #dddddd, transparent);
 }
-
+.btn-primary
+{
+    background-color: #00a74c !important;
+    border-color: #00a74c !important;
+}
 .arrowBox{
     position: relative;
     width:220px;
-    background: #060606;
+    background: #00a74c;
     height:40px;
     line-height: 40px;
     margin-bottom:30px; 
- 
+   text-align: center;
     color:#fff;
   }
   .arrow-right:after{
@@ -71,7 +75,7 @@
     top: 0;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 20px solid#060606; 
+    border-left: 20px solid#00a74c; 
 }
 
 .materimonial-img
