@@ -68,7 +68,7 @@
    text-align: center;
     color:#fff;
   }
-  .arrow-right:after{
+  .arrow-right::after{
     content: "";
     position: absolute;
     right: -20px;
@@ -82,6 +82,8 @@
 {
     width: 150px;
     height: 150px;
+    margin-top: 50px;
+    border-radius: 100%;
 }
 .materimonialservices
 {
@@ -531,12 +533,20 @@ and (max-device-width:360px)
    }
    #card-bg {
    
-    width:280px !important;
+    width:216px !important;
 }
+
 .arrowBox {
-  
+    position: relative;
     width: 180px !important;
-  
+    background: #00a74c;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    margin-left: -30px !important;
+   
 }
 .custom-text2
 {
@@ -701,7 +711,7 @@ and (max-device-width: 420px)
     }
     #card-bg {
     
-     width:360px !important;
+     width:340px !important;
  }
  .arrowBox {
    
@@ -869,11 +879,11 @@ margin-top: -52px !important;
 }
 #card-bg {
 
- width:500px !important;
+ width:430px !important;
 }
 .arrowBox {
 
- width: 410px !important;
+ width: 356px !important;
 
 }
 .custom-text2
