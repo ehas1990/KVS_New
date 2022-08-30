@@ -57,8 +57,8 @@
 
 #card_bg
 {
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: 176px;
+  
 }
 .floatright
 {
@@ -568,7 +568,7 @@ and (max-device-width:360px)
    }
    #card-bg {
    
-    width:216px !important;
+    width:300px !important;
 }
 
 .arrowBox {
@@ -757,7 +757,7 @@ and (max-device-width: 420px)
     }
     #card-bg {
     
-     width:340px !important;
+     width:330px !important;
  }
  .arrowBox {
    
@@ -884,7 +884,7 @@ and (max-device-width: 540px)
  }
 #social-right
 {
-    margin-top: -3px !important;
+    margin-top: -35px !important;
 }
 .social-link {
     width: 442px !important;
@@ -1201,6 +1201,9 @@ margin-top: -37px !important;
 and (min-device-width:760px)
 and (max-device-width:1024px)
 {
+    #card_bg {
+        margin-left: 50px !important;
+    }
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
