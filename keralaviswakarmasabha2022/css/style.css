@@ -57,7 +57,9 @@
 
 #card_bg
 {
-    margin-left: 176px;
+   text-align:-webkit-center !important;
+   text-align:-moz-center !important;
+ 
   
 }
 .floatright
@@ -446,6 +448,7 @@ div#n2-ss-5 .n-uc-VU1qjFbjQtxP-inner {
   {
     text-align: justify;
   }
+
 /*  */
 @media only screen
 and (min-device-width: 220px)
@@ -1140,6 +1143,10 @@ margin-top: -52px !important;
 and (min-device-width:720px)
 and (max-device-width:760px)
 {
+    #card-bg
+    {
+       width: 694px !important;
+    }
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
@@ -1173,10 +1180,7 @@ and (max-device-width:760px)
         width: 50% !important;
         margin-left: 180px !important;
     }
-    #card_bg {
-        margin-left: 40px !important;
-        margin-right: 40px !important;
-    }
+   
     .form-card {
         background: linear-gradient(176deg, white, transparent);
         padding: 20px;
@@ -1201,9 +1205,9 @@ margin-top: -37px !important;
 and (min-device-width:760px)
 and (max-device-width:1024px)
 {
-    #card_bg {
+    /* #card_bg {
         margin-left: 50px !important;
-    }
+    } */
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
