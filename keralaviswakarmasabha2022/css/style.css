@@ -448,12 +448,35 @@ div#n2-ss-5 .n-uc-VU1qjFbjQtxP-inner {
   {
     text-align: justify;
   }
+#nav-health
+{
+    width: 230px;
 
+}
+#table-id-health
+{
+    display: block;
+    border-color: #0e0d0d;
+    scroll-behavior: auto;
+    scrollbar-width: thin;
+}
+.tbody-health th
+{
+    font-weight:400 ;
+}
+#col-health
+{
+    margin-left: 326px;
+}
 /*  */
 @media only screen
 and (min-device-width: 220px)
 and (max-device-width:360px)
 {   
+    #col-health
+{
+    margin-left: 0px !important;
+}
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
@@ -636,6 +659,11 @@ and (max-device-width:360px)
 and (min-device-width: 360px)
 and (max-device-width: 420px)
 {
+       
+    #col-health
+{
+    margin-left: 20px !important;
+}
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
@@ -818,6 +846,11 @@ and (max-device-width: 420px)
 and (min-device-width: 420px)
 and (max-device-width: 540px)
 {
+       
+    #col-health
+{
+    margin-left: 40px !important;
+}
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
@@ -1000,6 +1033,10 @@ margin-top: -52px !important;
 and (min-device-width:540px)
 and (max-device-width:720px)
 {
+    #col-health
+    {
+        margin-left: 80px !important;
+    }
     .box-warapper{
         background-color:#ffffff;
         padding-top: 14px;
@@ -1143,6 +1180,10 @@ margin-top: -52px !important;
 and (min-device-width:720px)
 and (max-device-width:760px)
 {
+    #col-health
+    {
+        margin-left: 80px !important;
+    }
     #card-bg
     {
        width: 694px !important;
@@ -1205,6 +1246,10 @@ margin-top: -37px !important;
 and (min-device-width:760px)
 and (max-device-width:1024px)
 {
+    #col-health
+    {
+        margin-left: 96px !important;
+    }
     /* #card_bg {
         margin-left: 50px !important;
     } */
